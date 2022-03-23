@@ -1,0 +1,6 @@
+#pragma once
+#include < string >
+
+enum DegreeProgram {NETWORK, SECURITY, SOFTWARE};
+
+static const std::string degreeProgramStrings[] = { "SECURITY", "NETWORK", "SOFTWARE" };
